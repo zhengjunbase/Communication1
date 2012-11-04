@@ -11,18 +11,21 @@ import java.util.Queue;
 
 
 /**
- * 双socket通信类Comunication.java 用法示例：
- * 新建两个Communication对象：c,c1
- * 初始化c的端口号c。initserver(c的端口号)
- * 初始化c1的端口号c1。initserver(c1的端口号)
- * 建立c到c1的连接c.initstep2(c1的端口号）
- * 建立c1到c的连接c1.initstep2(c的端口号）
- * 初始化c的客户端的socket c。initclient()
- * 初始化c1的客户端的socket c1。initclient()
+
+*
+*
+ * 双socket通锟斤拷锟斤拷Comunication.java 锟矫凤拷示锟斤拷锟斤拷
+ * 锟铰斤拷锟斤拷锟斤拷Communication锟斤拷锟斤拷锟斤拷c,c1
+ * 锟斤拷始锟斤拷c锟侥端口猴拷c锟斤拷initserver(c锟侥端口猴拷)
+ * 锟斤拷始锟斤拷c1锟侥端口猴拷c1锟斤拷initserver(c1锟侥端口猴拷)
+ * 锟斤拷锟斤拷c锟斤拷c1锟斤拷锟斤拷锟斤拷c.initstep2(c1锟侥端口号ｏ拷
+ * 锟斤拷锟斤拷c1锟斤拷c锟斤拷锟斤拷锟斤拷c1.initstep2(c锟侥端口号ｏ拷
+ * 锟斤拷始锟斤拷c锟侥客伙拷锟剿碉拷socket c锟斤拷initclient()
+ * 锟斤拷始锟斤拷c1锟侥客伙拷锟剿碉拷socket c1锟斤拷initclient()
  * 
  * 
- * 开始发送消息：  c.sendmsg(消息)，暂只支持Integer类型
- * 接收消息：value=c1.recvmsg()  接受 Integer类型  
+ * 锟斤拷始锟斤拷锟斤拷锟斤拷息锟斤拷  c.sendmsg(锟斤拷息)锟斤拷锟斤拷只支锟斤拷Integer锟斤拷锟斤拷
+ * 锟斤拷锟斤拷锟斤拷息锟斤拷value=c1.recvmsg()  锟斤拷锟斤拷 Integer锟斤拷锟斤拷  
  */
 	
 public class Communication {
